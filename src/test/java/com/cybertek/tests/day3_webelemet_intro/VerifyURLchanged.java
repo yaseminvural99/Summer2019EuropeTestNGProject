@@ -29,7 +29,7 @@ public class VerifyURLchanged {
         WebElement retrievePasswordButton = driver.findElement(By.id("form_submit"));
         //click button
         retrievePasswordButton.click();
-
+         //we got from testcase
         String expectedUrl = "http://practice.cybertekschool.com/email_sent";
 
         String actualUrl = driver.getCurrentUrl();
